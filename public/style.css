@@ -1,0 +1,23 @@
+.main-div {
+  width: 360px;
+  height: 360px;
+  border: 1px solid gray;
+  margin-top: 130px;
+  margin-left: 450px;
+  position: relative;
+}
+.box-row {
+  display: flex;
+}
+.square {
+  width: 120px;
+  height: 120px;
+  border: none;
+  box-shadow: 0 0 5px gray;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+}
+.square:hover {
+  background-color: yellow;
+}
